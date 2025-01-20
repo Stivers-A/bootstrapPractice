@@ -1,2 +1,9 @@
 h2{ color: gray;}
-h2:hover { color: #fff ; }
+h2:hover { 
+    color: #fff ; 
+    text-decoration: underline;
+
+}
+#background{
+    background-color: gray;
+}
