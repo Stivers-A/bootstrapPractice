@@ -7,3 +7,10 @@ h2:hover {
 #background{
     background-color: gray;
 }
+* {
+    margin: 0;
+    padding: 0;
+} 
+.display{
+    background-color: #c7c7c7;
+}
