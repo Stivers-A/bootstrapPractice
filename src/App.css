@@ -4,6 +4,10 @@ h2:hover {
     text-decoration: underline;
 
 }
+.activePage{
+    color: #cdcdcd ; 
+    text-decoration: underline; 
+}
 #background{
     background-color: gray;
 }
@@ -13,4 +17,9 @@ h2:hover {
 } 
 .display{
     background-color: #c7c7c7;
+}
+.clickMe:hover{
+    background-color: darkblue !important;
+    color: aliceblue !important;
+    box-shadow:  0.05em 0.05rem 0.05rem black;
 }
