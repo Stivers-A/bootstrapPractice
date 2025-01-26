@@ -117,11 +117,11 @@ function App() {
         </div>
         <div
           id="pageFooter"
-          className=" footer bg-dark d-flex justify-content-center flex-row p-2"
+          className=" footer bg-dark d-flex justify-content-center flex-row p-2 "
         >
-          <div className="px-5">Flex item 1</div>
-          <div className="px-5">Flex item 2</div>
-          <div className="px-5">Flex item 3</div>
+          <div className="mx-auto px-3 border-0 rounded bg-info"><h3>COPYRIGHT TM</h3></div>
+          <div className="mx-auto px-3 border-0 rounded bg-info"><h3>Brand Name</h3></div>
+          <div className="mx-auto px-3 border-0 rounded bg-info"><h3>About Us</h3></div>
         </div>
       </div>
     </body>
