@@ -46,7 +46,7 @@ function App() {
         <div id="pageBody" className="d-flex flex-row">
           <div
             id="content1"
-            className="my-2 p-5 container-flex w-75 justify-content-start"
+            className="my-2 p-5 container-flex mw-75 justify-content-start"
           >
             <div className="row px-0">
               <div className="col-sm shadow-sm px-o mx-1 display border border-0 rounded-4 d-flex flex-column justify-content-between">
@@ -110,18 +110,41 @@ function App() {
           </div>
           <div
             id="content2"
-            className="my-2 p-5 container-flex w-25 justify-content-end"
+            className="my-2 p-0 d-flex mw-25 justify-content-around flex"
           >
-            <p>Some words here</p>
+            <div className=" p-2 mx-3 border border-0 rounded-4 text-light bg-dark ">
+              <p>Secondary Content 1</p>
+              <p>
+                Lorem ipsum odor amet, consectetuer adipiscing elit. Nulla
+                tellus adipiscing facilisi mauris luctus felis vulputate nostra.
+                Natoque netus sit enim est tempor. Convallis magna urna placerat
+                ut phasellus. Duis ad sagittis dui malesuada ornare. 
+              </p>
+            </div>
+            <div className=" p-2 mx-3 border border-0 rounded-4 text-light  bg-dark">
+              <p> Secondary Content 2</p>
+              <p>
+                Lorem ipsum odor amet, consectetuer adipiscing elit. Dictum
+                netus elit nibh ullamcorper eu. Turpis litora mattis mauris
+                nascetur convallis consectetur. Nisl massa erat platea commodo
+                pharetra molestie.
+              </p>
+            </div>
           </div>
         </div>
         <div
           id="pageFooter"
           className=" footer bg-dark d-flex justify-content-center flex-row p-2 "
         >
-          <div className="mx-auto px-3 border-0 rounded bg-info"><h3>COPYRIGHT TM</h3></div>
-          <div className="mx-auto px-3 border-0 rounded bg-info"><h3>Brand Name</h3></div>
-          <div className="mx-auto px-3 border-0 rounded bg-info"><h3>About Us</h3></div>
+          <div className="mx-auto px-3 border-0 rounded bg-info">
+            <h3>COPYRIGHT TM</h3>
+          </div>
+          <div className="mx-auto px-3 border-0 rounded bg-info">
+            <h3>Brand Name</h3>
+          </div>
+          <div className="mx-auto px-3 border-0 rounded bg-info">
+            <h3>About Us</h3>
+          </div>
         </div>
       </div>
     </body>
