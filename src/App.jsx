@@ -110,10 +110,10 @@ function App() {
           </div>
           <div
             id="content2"
-            className="my-2 p-0 d-flex mw-25 justify-content-around flex"
+            className="my-2 p-5 p-0 d-flex mw-25 justify-content-around flex"
           >
             <div className=" p-2 mx-3 border border-0 rounded-4 text-light bg-dark ">
-              <p>Secondary Content 1</p>
+              <p>Content 1</p>
               <p>
                 Lorem ipsum odor amet, consectetuer adipiscing elit. Nulla
                 tellus adipiscing facilisi mauris luctus felis vulputate nostra.
@@ -122,7 +122,7 @@ function App() {
               </p>
             </div>
             <div className=" p-2 mx-3 border border-0 rounded-4 text-light  bg-dark">
-              <p> Secondary Content 2</p>
+              <p> Content 2</p>
               <p>
                 Lorem ipsum odor amet, consectetuer adipiscing elit. Dictum
                 netus elit nibh ullamcorper eu. Turpis litora mattis mauris
